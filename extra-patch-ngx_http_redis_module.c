@@ -1,5 +1,5 @@
---- ../ngx_http_redis-0.3.9/ngx_http_redis_module.c.orig	2022-07-10 22:10:19.031893000 -0400
-+++ ../ngx_http_redis-0.3.9/ngx_http_redis_module.c	2022-07-10 22:09:41.271731000 -0400
+--- ngx_http_redis_module.c.orig	2022-07-10 22:10:19.031893000 -0400
++++ ngx_http_redis_module.c	2022-07-10 22:09:41.271731000 -0400
 @@ -562,7 +562,7 @@
          /* if defined gzip_flag... */
          if (rlcf->gzip_flag) {
